@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&family=Open+Sans+Condensed:wght@300&family=Roboto:wght@300;400&display=swap");
+
+/* General */
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    display: none;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav span {
+    font-size: 60px;
+    font-weight: 500;
+    color: #0a5208;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 41.8px;
+    border: white;
+    border-radius: 70px;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    margin-left: 5%;
+}
+
+.menu:focus {
+    outline: 3px solid #000000;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.login:focus {
+    outline: 3px solid #000000;
+}
+
+.login span {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #9093A6;
+}
+
+/* Greatings */
+
+.greatings {
+    height: 100px;
+    justify-content: center;
+    background-image: url("../../src/images/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greatings span {
+    font-size: 60px;
+    color: #f3f3f3;
+}
+
+/* About us */
+
+.about {
+    justify-content: space-evenly;
+}
+
+.about span {
+    font-size: 32px;
+}
+
+.check-mark {
+    display: flex;
+    align-items: center;
+}
+
+.check-mark span {
+    margin: 5px;
+}
+
+.check-mark img {
+    width: 25px;
+    height: 25px;
+}
+
+/* Prices */
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prices span {
+    align-content: flex-start;
+    font-size: 42px;
+}
+
+.pricing {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pricing span {
+    font-size: 24px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 10px 10px
+}
+
+.product span {
+    font-weight: bold;
+}
+
+.product-img {
+    width: 400px;
+    height: 400px;
+}
+
+/* Map */
+
+.map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map-img {
+    min-height: 99px;
+    max-height: 504px;
+    min-width: 210px;
+    max-width: 1200px;
+}
+
+.map span {
+    font-size: 42px;
+    margin: 10%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline-start: 0;
+}
+
+.links li {
+    margin: 10px;
+}
+
+footer span {
+    font-size: 32px;
+    font-weight: 500;
+    color: #0a5208;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #9093A6;
+}
+
+footer a:focus {
+    outline: 3px solid #000000;
+}
+
+/* End of index */
+
+/* Admin Login */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F4FA;
+    border-radius: 18px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+form span {
+    font-size: 3.2em;
+    font-weight: 300;
+    letter-spacing: 0.135em;
+    color: #3F4255;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+form label {
+    font-size: 18px;
+    margin: 5px;
+}
+
+form p {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.textinput {
+    border: 0;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    color: #9093A6;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-size: large;
+}
+
+.submitbtn {
+    display: flex;
+    align-items: flex-end;
+}
+.loginsubmit {
+    width: 40%;
+    height: 45px;
+    border-radius: 0.3em;
+    background: #0a5208;
+    color: #FF6600;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 12px;
+    float: right;
+    font-size: 18px;
+    border: 0;
+}
+
+.loginsubmit:hover {
+    background: #f7f7f7;
+    color: #0a5208;
+}
+
+/* Dashboard */
+
+.dashboard {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-right: 1px solid #9093A6;
+}
+
+.sidenav span {
+    font-size: 36px;
+    color: #0a5208;
+    margin: 10px;
+}
+
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    color: #9093A6;
+    border-bottom: 1px solid #9093A6;
+    padding-top: 23px;
+    padding-bottom: 16px;
+    letter-spacing: 0.05em;
+}
+
+.details {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.details span {
+    font-size: 72px;
+    text-decoration: underline #0a5208;
+    font-weight: 300;
+    line-height: 82px;
+}
+
+.details .info {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 0.08em;
+}
+
+/* Products */
+
+.title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-btn {
+    align-self: center;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    background: #0a5208;
+    color: #FF6600;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.add-btn:hover {
+    background: #FF6600;
+    color: #0a5208;
+}
+
+.table {
+    border: 1px solid #F2F4FA;
+    background-color: #fdfdfd;
+    border-collapse: collapse;
+}
+
+.table th, td, tr {
+    text-align: center;
+    font-size: 26px;
+}
+
+.table tr {
+    border: 1px solid black;
+}
+
+.table td {
+    overflow: auto;
+    height: auto;
+}
+
+.editbtn {
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #0a5208;
+    color: #FF6600;
+    border: none;
+}
+
+/* Add product */
+
+.addprod {
+    margin: 0;
+}
+
+.addprod p {
+    width: 75%;
+}
